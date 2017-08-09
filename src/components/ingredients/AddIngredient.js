@@ -17,10 +17,14 @@ export class AddIngredient extends Component {
 
   render(){
     return(
+<<<<<<< HEAD
       <div>
         {this.props.name}
         <button onClick={this.handleButton}>Add Ingredient</button>
       </div>
+=======
+      <li> {this.props.ingredient.name} </li>
+>>>>>>> 2a64a47dd771c60cc42e31a7457e5df8e66a48c4
     )
   }
 }

@@ -11,7 +11,11 @@ export class Recipes extends Component {
         <div>
           Recipes:
           <ul>
+<<<<<<< HEAD
             {recipes}
+=======
+            
+>>>>>>> 2a64a47dd771c60cc42e31a7457e5df8e66a48c4
           </ul>
         </div>
     )
